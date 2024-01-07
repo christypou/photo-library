@@ -46,7 +46,7 @@ constructor(
     localStorage.setItem('favorite', JSON.stringify(this.favoriteImages));
     this.toastr.success('Added to Favorites!');
    }else{
-    this.toastr.warning('Already exists!');
+    this.toastr.warning('You already favorited this image!');
    }
   }
 
