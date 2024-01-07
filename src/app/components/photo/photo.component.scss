@@ -1,0 +1,14 @@
+.selected-image{
+    width: 90%;
+    margin: 0 auto;
+}
+.image-container{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   margin: 1rem 0;
+}
+.remove-button{
+    margin: 1rem 0;
+    background-color: rgb(193, 216, 188);
+}

@@ -1,0 +1,8 @@
+<mat-grid-list class="gallery" cols="3" rowHeight="3:2" gutterSize="1rem">
+    <mat-grid-tile *ngFor="let photo of galleryImages">
+        <img (click)="addToFavorites(photo)" src="{{photo.download_url}}">
+    </mat-grid-tile>
+  </mat-grid-list>
+  <div class="loader-container">
+    <span *ngIf="isLoading" class="loader"></span>
+  </div>

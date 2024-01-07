@@ -1,0 +1,5 @@
+<div class="image-container" *ngIf="selectedImage">
+    <img class="selected-image" src="{{selectedImage.download_url}}">
+    <button (click)="deletePhoto(selectedImage.id)" mat-raised-button class="remove-button">Remove from favorites</button>
+</div>
+

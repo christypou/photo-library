@@ -1,0 +1,6 @@
+<mat-grid-list class="gallery" cols="3" rowHeight="3:2" gutterSize="1rem">
+    <mat-grid-tile *ngFor="let photo of favoriteImages">
+        <img [routerLink]="['/photos', photo.id]" class="grid-image" src="{{photo.download_url}}">
+    </mat-grid-tile>
+</mat-grid-list>
+<h1 class="center-text" *ngIf="favoriteImages.length===0">No favorite images yet!</h1>

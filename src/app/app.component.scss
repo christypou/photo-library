@@ -1,0 +1,15 @@
+.app{
+    background-color: white;
+}
+
+.header{
+    background-color: rgb(234, 239, 233);
+    display: flex;
+    justify-content: center;
+    padding: 2.5rem 0;
+    gap: 15%;
+}
+
+.active-link{
+    background-color: rgb(193, 216, 188) !important;
+}
